@@ -1,0 +1,86 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  
+
+}
+
+body{
+  font-family: "Montserrat";
+  background: #f8f8f8;
+   background-image: url(image/flat-style-clouds-blue-shades-background_1017-23284.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center; 
+   background-attachment: fixed;  
+
+ 
+}
+
+.input{
+  text-align: center;
+  margin: 100px auto;
+}
+
+.submit {
+ 
+  width: 7%;
+  height: 54px;
+  padding: 5px 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 19px;
+  border: 1px solid grey;
+  border-left: none; 
+  cursor: pointer;
+}
+.submit button:hover{
+ 
+    background: #0b7dda;
+  
+}
+
+.input input[type="text"]{
+  width: 600px;
+  height: 55px;
+  padding: 5px 10px;
+  background: #e7e7e7;
+  border: none;
+  border-radius: 1px;
+  font-family: "Montserrat";
+  font-weight:bold;
+  font-size: 20px;
+}
+
+.card{
+  width: 50%;
+  background: #e7e7e7;
+  height: 35vh;
+  margin: 50px auto;
+  border-radius: 28px;
+}
+
+
+.close{
+  float: right;
+  margin-top: -2px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.card h1{
+  padding: 15px 0;
+  text-align: center;
+  font-style: italic;
+  color:red;
+  font-size:45px;
+}
+
+.card p{
+  text-align: center;
+  margin:38px 0;
+  font-size:25px;
+  font-weight: bold;
+}
+
